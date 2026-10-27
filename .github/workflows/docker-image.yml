@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag crg28/randomquotes:latest 
        
     - name: Docker Push 
-      run: docker push crg28/randomquotes.git
+      run: docker push crg28/randomquotes
